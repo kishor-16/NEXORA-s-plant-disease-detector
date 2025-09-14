@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI plant diseas detector</title>
+</head>
+<body>
+    <h1>TEAM NEXORA'S SIH PROTOTYPE...</h1>
+    <h2>Teachable Machine Image Model</h2>
+    <button id="startWebcam">Start Webcam</button>
+    <input type="file" id="imageUpload" accept="image/*">
+    <button id="predictButton">Get Result</button>
+    <button id="useAPIButton" style="display:none;">Use API</button>
+
+    <div id="webcam-container"></div>
+    <div id="image-container"></div>
+    <div id="label-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+
+    <script src="app1.js"></script>
+    <script src="app2.js"></script>
+</body>
+</html>
